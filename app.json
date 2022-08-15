@@ -1,0 +1,23 @@
+name": "Followers Instagram",
+  "description": "Gajelas",
+  "image": "heroku/python",
+  "repository": "https://github.com/yaonxiyu/Foll",
+  "keywords": ["python", "instagram" ],
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "USERNAME": {
+      "description": "Username Instagram."
+    }
+  },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
