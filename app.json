@@ -1,4 +1,5 @@
-name": "Followers Instagram",
+{
+"name": "Followers Instagram",
   "description": "Gajelas",
   "image": "heroku/python",
   "repository": "https://github.com/yaonxiyu/Foll",
