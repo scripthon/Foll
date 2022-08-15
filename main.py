@@ -1,2 +1,5 @@
-import os as insta
-insta.system("python3 qlizz.py 2xx3yyy")
+import os
+key = "USERNAME"
+value = os.getenv(key)
+while True:
+    os.system(f"python3 like.py {value}")
